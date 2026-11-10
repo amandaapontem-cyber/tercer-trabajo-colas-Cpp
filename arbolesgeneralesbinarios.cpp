@@ -2,9 +2,9 @@
 #include <iostream>
 using namespace std;
 
-// ==========================================
+
 // ESTRUCTURA DEL NODO
-// ==========================================
+
 
 struct Nodo {
     int dato;
@@ -18,9 +18,9 @@ struct Nodo {
     }
 };
 
-// ==========================================
+
 // INSERTAR ELEMENTOS EN EL ARBOL
-// ==========================================
+
 
 Nodo* insertar(Nodo* raiz, int valor) {
 
@@ -38,10 +38,10 @@ Nodo* insertar(Nodo* raiz, int valor) {
     return raiz;
 }
 
-// ==========================================
+
 // RECORRIDO INORDEN
 // IZQUIERDA - RAIZ - DERECHA
-// ==========================================
+
 
 void inorden(Nodo* raiz) {
 
@@ -55,10 +55,10 @@ void inorden(Nodo* raiz) {
     }
 }
 
-// ==========================================
+
 // RECORRIDO PREORDEN
 // RAIZ - IZQUIERDA - DERECHA
-// ==========================================
+
 
 void preorden(Nodo* raiz) {
 
@@ -72,10 +72,9 @@ void preorden(Nodo* raiz) {
     }
 }
 
-// ==========================================
 // RECORRIDO POSORDEN
 // IZQUIERDA - DERECHA - RAIZ
-// ==========================================
+
 
 void posorden(Nodo* raiz) {
 
@@ -89,9 +88,9 @@ void posorden(Nodo* raiz) {
     }
 }
 
-// ==========================================
+
 // LIBERAR MEMORIA DEL ARBOL
-// ==========================================
+
 
 void liberarArbol(Nodo* raiz) {
 
@@ -105,9 +104,9 @@ void liberarArbol(Nodo* raiz) {
     }
 }
 
-// ==========================================
+
 // PROGRAMA PRINCIPAL
-// ==========================================
+
 
 int main() {
 
